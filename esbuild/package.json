@@ -1,0 +1,26 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "esbuild  --bundle  ./src/app.jsx --outfile=dist/out.js",
+    "build": "node esbuild.build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@craftamap/esbuild-plugin-html": "^0.7.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "0.19.8",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-inline-image": "^0.0.9",
+    "esbuild-plugin-path-alias": "^1.0.7",
+    "esbuild-plugin-sass": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3"
+  }
+}

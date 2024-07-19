@@ -1,0 +1,11 @@
+ @import "./font/iconfont.css";
+
+ :root {
+  --foo-color: #12345678;
+  color: var(--foo-color);
+  user-select: none;
+}
+
+p{
+  color:red
+}
