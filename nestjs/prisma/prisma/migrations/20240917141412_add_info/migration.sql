@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Profile` ADD COLUMN `info` VARCHAR(191) NOT NULL DEFAULT '';
